@@ -1,0 +1,32 @@
+.usercard{
+    background-color: rgb(23, 22, 20);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(91, 83, 236, 0.5);
+    color: rgb(120, 163, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 600px;
+    width: 500px
+}
+
+#user-img{
+    height: 300px;
+    border-radius: 50%;
+}
+
+#desc{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+#title{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-weight: 600;
+}
